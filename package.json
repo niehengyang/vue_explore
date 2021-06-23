@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "boom-websocket-client": "^1.1.0",
     "core-js": "^3.6.5",
     "css-loader": "^5.2.4",
     "element-ui": "^2.15.1",
@@ -16,7 +17,10 @@
     "node-sass": "^6.0.0",
     "sass": "^1.32.13",
     "sass-loader": "^11.1.1",
+    "stats-js": "^1.0.1",
     "style-loader": "^2.0.0",
+    "three": "^0.129.0",
+    "three-orbit-controls": "^82.1.0",
     "vue": "^2.6.11",
     "vue-router": "^3.5.1"
   },

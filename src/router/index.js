@@ -24,6 +24,16 @@ export const routes = [
         name: 'animation',
         component: () => import('../views/animation/Index.vue'),
     },
+    {
+        path: '/websocket',
+        name: 'websocket',
+        component: () => import('../views/wsTest/Index.vue'),
+    },
+    {
+        path: '/threejs',
+        name: 'threejs',
+        component: () => import('../views/threejs/Index1.vue'),
+    },
 ];
 
 const router = new VueRouter({

@@ -34,21 +34,83 @@
         justify-content: center;
     }
 
-    @-webkit-keyframes breathe {
+    @-webkit-keyframes breathe1 {
         0% {
             opacity: .0;
+            transform: translateY(-20px);/**上移元素**/
         }
-
         50% {
-            opacity: .5;
+            opacity: .3;
         }
-
         80% {
+            opacity: 0.6;
+        }
+        100% {
             opacity: 1;
         }
+    }
 
-        100% {
+    @-webkit-keyframes breathe2 {
+        0% {
             opacity: .0;
+            transform: translateY(-20px);/**上移元素**/
+        }
+        50% {
+            opacity: .3;
+        }
+        80% {
+            opacity: 0.6;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @-webkit-keyframes breathe3 {
+        0% {
+            opacity: .0;
+            transform: translateY(-20px);/**上移元素**/
+        }
+        50% {
+            opacity: .3;
+        }
+        80% {
+            opacity: 0.6;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @-webkit-keyframes breathe4 {
+        0% {
+            opacity: .0;
+            transform: translateY(-20px);/**上移元素**/
+        }
+        50% {
+            opacity: .3;
+        }
+        80% {
+            opacity: 0.6;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @-webkit-keyframes breathe5 {
+        0% {
+            opacity: .0;
+            transform: translateY(-20px);/**上移元素**/
+        }
+        50% {
+            opacity: .3;
+        }
+        80% {
+            opacity: 0.6;
+        }
+        100% {
+            opacity: 1;
         }
     }
 
@@ -59,10 +121,10 @@
         border: 1px solid #03f2ff;
         border-radius: 50% / 50%;
 
-        animation-name: breathe;
-        animation-duration: 1s;
-        animation-delay: 0.1s;
-        animation-timing-function: ease;
+        animation-name: breathe1;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
     }
 
@@ -73,10 +135,10 @@
         border: 1px solid #03f2ff;
         border-radius: 50% / 50%;
 
-        animation-name: breathe;
-        animation-duration: 1.1s;
-        animation-delay: 0.2s;
-        animation-timing-function: ease;
+        animation-name: breathe2;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
     }
     .ellipse3{
@@ -86,10 +148,10 @@
         border: 1px solid #03f2ff;
         border-radius: 50% / 50%;
 
-        animation-name: breathe;
-        animation-duration: 1.2s;
-        animation-delay: 0.3s;
-        animation-timing-function: ease;
+        animation-name: breathe3;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
     }
     .ellipse4{
@@ -99,10 +161,10 @@
         border: 1px solid #03f2ff;
         border-radius: 50% / 50%;
 
-        animation-name: breathe;
-        animation-duration: 1.3s;
-        animation-delay: 0.4s;
-        animation-timing-function: ease;
+        animation-name: breathe4;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
     }
     .ellipse5{
@@ -112,10 +174,10 @@
         border: 1px solid #03f2ff;
         border-radius: 50% / 50%;
 
-        animation-name: breathe;
-        animation-duration: 1.4s;
-        animation-delay: 0.5s;
-        animation-timing-function: ease;
+        animation-name: breathe5;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
     }
 
